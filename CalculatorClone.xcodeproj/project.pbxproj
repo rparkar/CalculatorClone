@@ -56,15 +56,39 @@
 		6CC86E7920479F4E0086082C /* CalculatorClone */ = {
 			isa = PBXGroup;
 			children = (
+				6CC86E922047B2690086082C /* Model */,
+				6CC86E912047B2610086082C /* View */,
+				6CC86E902047B24D0086082C /* Controller */,
 				6CC86E7A20479F4E0086082C /* AppDelegate.swift */,
-				6CC86E7C20479F4E0086082C /* ViewController.swift */,
 				6CC86E7E20479F4E0086082C /* Main.storyboard */,
 				6CC86E8120479F4E0086082C /* Assets.xcassets */,
 				6CC86E8320479F4E0086082C /* LaunchScreen.storyboard */,
 				6CC86E8620479F4E0086082C /* Info.plist */,
-				6CC86E8E2047A20D0086082C /* CircleButton.swift */,
 			);
 			path = CalculatorClone;
+			sourceTree = "<group>";
+		};
+		6CC86E902047B24D0086082C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6CC86E7C20479F4E0086082C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6CC86E912047B2610086082C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6CC86E8E2047A20D0086082C /* CircleButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6CC86E922047B2690086082C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
