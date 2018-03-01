@@ -40,6 +40,9 @@
                                                 <state key="normal" title="AC">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="allClearButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8GV-sD-P0S"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xqr-FK-LTz" customClass="CircleButton" customModule="CalculatorClone" customModuleProvider="target">
                                                 <rect key="frame" x="93.5" y="0.0" width="80" height="80"/>
@@ -52,6 +55,9 @@
                                                 <state key="normal" title="+/-">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="changeSignButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="maC-Az-2cX"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1DK-7J-31c" customClass="CircleButton" customModule="CalculatorClone" customModuleProvider="target">
                                                 <rect key="frame" x="186.5" y="0.0" width="80" height="80"/>
@@ -64,6 +70,9 @@
                                                 <state key="normal" title="%">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="percentageButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vtt-rH-9R3"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xlz-L6-BfF" customClass="CircleButton" customModule="CalculatorClone" customModuleProvider="target">
                                                 <rect key="frame" x="280" y="0.0" width="80" height="80"/>
@@ -76,6 +85,9 @@
                                                 <state key="normal" title="/">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="divideButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tt5-Gn-eUW"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -102,6 +114,9 @@
                                                 <state key="normal" title="7">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Act-KC-sY4"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cXN-AL-JjQ" customClass="CircleButton" customModule="CalculatorClone" customModuleProvider="target">
                                                 <rect key="frame" x="93.5" y="0.0" width="80" height="80"/>
@@ -114,6 +129,9 @@
                                                 <state key="normal" title="8">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vRQ-o6-PgL"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9hW-ny-g2u" customClass="CircleButton" customModule="CalculatorClone" customModuleProvider="target">
                                                 <rect key="frame" x="186.5" y="0.0" width="80" height="80"/>
@@ -126,6 +144,9 @@
                                                 <state key="normal" title="9">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ocP-QF-8By"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="leC-8M-9Ki" customClass="CircleButton" customModule="CalculatorClone" customModuleProvider="target">
                                                 <rect key="frame" x="280" y="0.0" width="80" height="80"/>
@@ -138,6 +159,9 @@
                                                 <state key="normal" title="X">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="multiplyButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hQF-bQ-TKc"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -164,6 +188,9 @@
                                                 <state key="normal" title="4">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ow6-en-ADa"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JN8-sY-RMx" customClass="CircleButton" customModule="CalculatorClone" customModuleProvider="target">
                                                 <rect key="frame" x="93.5" y="0.0" width="80" height="80"/>
@@ -176,6 +203,9 @@
                                                 <state key="normal" title="5">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cwT-nV-BdY"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="obA-0P-QAB" customClass="CircleButton" customModule="CalculatorClone" customModuleProvider="target">
                                                 <rect key="frame" x="186.5" y="0.0" width="80" height="80"/>
@@ -188,6 +218,9 @@
                                                 <state key="normal" title="6">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IsN-le-lTn"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5LY-av-3CP" customClass="CircleButton" customModule="CalculatorClone" customModuleProvider="target">
                                                 <rect key="frame" x="280" y="0.0" width="80" height="80"/>
@@ -200,6 +233,9 @@
                                                 <state key="normal" title="-">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="subtractButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ybo-Fj-CFp"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -221,6 +257,9 @@
                                                 <state key="normal" title="1">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H9j-hs-r64"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hO5-cK-H1j" customClass="CircleButton" customModule="CalculatorClone" customModuleProvider="target">
                                                 <rect key="frame" x="93.5" y="0.0" width="80" height="80"/>
@@ -233,6 +272,9 @@
                                                 <state key="normal" title="2">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x3I-q5-Odj"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0fL-jd-PDs" customClass="CircleButton" customModule="CalculatorClone" customModuleProvider="target">
                                                 <rect key="frame" x="186.5" y="0.0" width="80" height="80"/>
@@ -245,6 +287,9 @@
                                                 <state key="normal" title="3">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="siu-2H-mjO"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R3n-ko-TNo" customClass="CircleButton" customModule="CalculatorClone" customModuleProvider="target">
                                                 <rect key="frame" x="280" y="0.0" width="80" height="80"/>
@@ -257,6 +302,9 @@
                                                 <state key="normal" title="+">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="addButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zHx-6T-YaA"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -278,6 +326,9 @@
                                                 <state key="normal" title="0">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tNd-BG-K21"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="95m-57-JXd" customClass="CircleButton" customModule="CalculatorClone" customModuleProvider="target">
                                                 <rect key="frame" x="187.5" y="0.0" width="80" height="80"/>
@@ -290,6 +341,9 @@
                                                 <state key="normal" title=".">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="pointButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I5C-bZ-pQz"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rq8-5h-ISs" customClass="CircleButton" customModule="CalculatorClone" customModuleProvider="target">
                                                 <rect key="frame" x="280" y="0.0" width="80" height="80"/>
@@ -302,6 +356,9 @@
                                                 <state key="normal" title="=">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="equalsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rga-hO-IH4"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -333,6 +390,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="displayAreaLabel" destination="28Z-uX-Aq7" id="K04-Ex-itU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
