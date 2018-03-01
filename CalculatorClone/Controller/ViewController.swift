@@ -14,6 +14,13 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var displayAreaLabel: UILabel!
     
+    //variables
+    
+    var runningNumber = ""
+    var rightHandValue = ""
+    var leftHandValue = ""
+    var result = ""
+    var currentOperation: Operation = .NIL
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,9 +30,16 @@ class ViewController: UIViewController {
     
     @IBAction func numberButtonPressed(_ sender: Any) {
         
+        runningNumber += "\((sender as AnyObject).tag!)"
+        displayAreaLabel.text = runningNumber
+
+        
     }
     
     @IBAction func pointButtonPressed(_ sender: Any) {
+        
+        runningNumber += "."
+        displayAreaLabel.text = runningNumber
         
     }
     
@@ -53,6 +67,14 @@ class ViewController: UIViewController {
     
     
     @IBAction func allClearButtonPressed(_ sender: Any) {
+        
+        runningNumber = ""
+        leftHandValue = ""
+        rightHandValue = ""
+        result = ""
+        displayAreaLabel.text = "0"
+        currentOperation = .NIL
+        
         
     }
     

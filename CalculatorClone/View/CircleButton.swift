@@ -15,6 +15,7 @@ class CircleButton: UIButton {
         super.awakeFromNib()
         
         layer.cornerRadius = frame.height / 2
+        layer.pre
         
     }
 
