@@ -99,6 +99,34 @@ class ViewController: UIViewController {
     
     @IBAction func changeSignButtonPressed(_ sender: Any) {
         
+        if runningNumber != "" && runningNumber != "0" && currentOperation != .NIL {
+            
+            var num = Double(runningNumber)!
+            num = -num
+            
+            
+            self.runningNumber = "\(num)"
+            if (Double(runningNumber)!.truncatingRemainder(dividingBy: 1) == 0) {
+                runningNumber = "\(Int(Double(runningNumber)!))"
+            }
+            self.displayAreaLabel.text = self.runningNumber
+            
+        }
+
+        if currentOperation == .NIL {
+            
+            runningNumber = "-\(Double(runningNumber)!)"
+           
+            
+            if (Double(runningNumber)!.truncatingRemainder(dividingBy: 1) == 0) {
+                
+                runningNumber = "\(Int(Double(runningNumber)!))"
+                
+            }
+            
+        }
+             displayAreaLabel.text = runningNumber
+        
     }
     
     
@@ -124,16 +152,26 @@ class ViewController: UIViewController {
                     
                 case .multiply: result = "\(Double(leftHandValue)! * Double(rightHandValue)!)"
                     
-                case .divide:  result = "\(Double(leftHandValue)! / Double(rightHandValue)!)"
+                case .divide: if rightHandValue != "0" {
+                    result = "\(Double(leftHandValue)! / Double(rightHandValue)!)"
+                } else {
+                        result = "Error"
+                        displayAreaLabel.text = "Error"
+                    }
                     
                 case .NIL: print("operand not selected")
                 }
                 
                 leftHandValue = result
-                if (Double(result)!.truncatingRemainder(dividingBy: 1) == 0) { //if divide by 1 gives no remainder then the result is down cast into an Int
+                
+
+                
+                if (result != "Error") && (Double(result)!.truncatingRemainder(dividingBy: 1) == 0) { //if divide by 1 gives no remainder then the result is down cast into an Int
+                        
+                        result = "\(Int(Double(result)!))"
                     
-                    result = "\(Int(Double(result)!))"
                 }
+                
                 displayAreaLabel.text = result
             }
             
